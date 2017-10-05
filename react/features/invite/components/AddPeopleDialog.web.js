@@ -338,7 +338,7 @@ function _mapStateToProps(state) {
 
     return {
         _conference: conference,
-        _jwt: state['features/jwt'].jwt,
+        _jwt: state['features/base/jwt'].jwt,
         _inviteUrl: getInviteURL(state),
         _inviteServiceUrl: inviteServiceUrl,
         _peopleSearchQueryTypes: peopleSearchQueryTypes,
